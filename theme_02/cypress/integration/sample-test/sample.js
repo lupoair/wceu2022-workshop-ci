@@ -14,6 +14,6 @@
 describe('Website e2e tests', () => {
   it('check h1', () => {
     cy.visit( Cypress.env('host') )
-    cy.get('h1').first().should('have.text', 'WCEU2022 CI')
+    cy.get('h1').first().should('have.text', 'Your Name')
   });
 })
